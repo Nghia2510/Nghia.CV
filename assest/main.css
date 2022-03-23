@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    height: 46px;
+    /* background-image: linear-gradient(0,rgb(9, 47, 74),rgb(20, 83, 51)); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+#nav > li{
+    display: inline-block;
+    
+    
+}
+
+#nav li{
+    
+    position: relative;
+}    
+
+#nav > li > a{
+    color: #fff;
+    text-transform:uppercase ;
+    
+}
+
+#nav li a{
+    color: cornsilk;
+    text-decoration: none;
+    line-height: 46px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: inline-block;
+   
+
+    
+    
+
+}
+
+#nav > li:hover > a{
+    color: #000;
+    /* background-color: #ccc; */
+    background: linear-gradient(45deg, #386e72, #95c5c8,#95c5c8,#f0c0aa);
+    /* background: linear-gradient(45deg, #0b1320, #394d5f, #394d5f, #fef9f6); */
+    
+}
+#nav{
+    display: inline-block;
+    
+}
+#slider{    
+    background-image: url(./img/wallhaven-e76pew.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    /* margin-top: 25px; */
+    /* position: relative; */
+    top: 0;
+    width: 100%;
+    height: 500px;    
+    padding-top: 50%;
+} 
+h1{
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    position: relative;
+    /* left: 50%;
+    transform: translate(-50%); */
+    /* top: 200px; */
+    font-size: 25px;
+    bottom: 100px;
+}
+.p_slider{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    bottom: 80px;
+}
+#about_me{
+    background-color:#99ccff;
+    /* background: linear-gradient(45deg, #0d5c75, #199fb1,#199fb1,#a5d1e1); */
+    
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    background-size:cover
+
+
+}
+.my_img{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+     position: absolute; */
+     /* làm cho ảnh bo tròn */
+     border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    /* làm bo bốn góc */
+    /* border-radius:15%;
+    -moz-border-radius:15%;
+    -webkit-border-radius:15%; */
+   
+}    
+pre{
+    color: rgb(245, 240, 240);
+    
+    line-height: 24px;
+    /* position: relative; */
+    top: 300px;
+    font-size: 20px;
+}
+#Qualification {
+    background-color: #87CEEB;
+    /* background: linear-gradient(45deg, #189aa7, #21c4d3,#21c4d3,#f9ece4); */
+    /* background: linear-gradient(45deg, #092147, #1a488e, #1a488e, #97b2de); */
+    width: 100%;
+    height: 1000px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-size:cover   
+}
+h2{
+    /* top: 100px;
+    font-family: heading-font;
+    border-bottom: 2px solid heather;
+    color: rgb(245, 240, 240);
+    border-bottom: #000; */
+    display: inline-block;
+    padding: 10px;
+    
+    color: #F0F6FB;
+    margin: 5px;
+    border-radius: 5px;
+    border-bottom: 2px solid #181a1b;
+}
+.p_Edu, .p_Pro{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 20px;
+}
+.li_lg, .li_Fend, .li_Bend{
+    background: #176094;
+    display: inline-block;
+    padding: 10px;
+    
+    color: #F0F6FB;
+    margin: 5px;
+    border-radius: 5px;
+}
+.row_contact_content{
+    text-align: center;
+    margin-top: 20px;
+    
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+    color: #364F6B;
+}
+#footer{
+    padding: 84px 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+#footer .socials-list{
+    font-size: 24px;
+    bottom: 0;
+}
+
+#footer .socials-list a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none; 
+}
+
+#footer .socials-list a:hover{
+    color: rgba(0, 0, 0, 0.4);
+}
+#footer .copy-right{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .copy-right a{
+   
+    color: rgba(0, 0, 0, 0.6);
+}
+/* giup tao ra chuyen dong muot ma */
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-140px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
